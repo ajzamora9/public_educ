@@ -41,6 +41,7 @@ function ch_func()
 		2) ip route show;;
 		3) ip_test;;
 		4) echo "" > ipvF.log | echo "" > ipt.log | echo "Log Cleared";;
+		5) echo "this is a network mapper";;
 		*) echo "Invalid Choice"
 		
 	esac
@@ -50,6 +51,7 @@ echo "1 - Quit"
 echo "2 - Show IP Address (Detailed)"
 echo "3 - Show IPV4 Address"
 echo "4 - Clear Log"
+echo "5 - Map Network"
 echo
 echo "Enter your choice: "
 read choice
@@ -68,6 +70,7 @@ then
 fi
 
 #thiw is a new addition V.1.1
+#this is a new version at develop branch
 
 
 
